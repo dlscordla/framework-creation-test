@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Google Cloud Pricing Calculator Test">
+        <test name="Virtual Machine Class Test">
+            <classes>
+                <class name="com.epam.automation.googlecloud.tests.VirtualMachineClassTest" />
+            </classes>
+        </test>
+        <test name="Instance Type Test">
+            <classes>
+                <class name="com.epam.automation.googlecloud.tests.InstanceTypeTest" />
+            </classes>
+        </test>
+        <test name="Solid-State Drive Quantity Test">
+            <classes>
+                <class name="com.epam.automation.googlecloud.tests.SolidStateDriveQuantityTest" />
+            </classes>
+        </test>
+        <test name="Datacenter Region Test">
+            <classes>
+                <class name="com.epam.automation.googlecloud.tests.DatacenterRegionTest" />
+            </classes>
+        </test>
+        <test name="Commitment Term Test">
+            <classes>
+                <class name="com.epam.automation.googlecloud.tests.CommitmentTermTest" />
+            </classes>
+        </test>
+</suite>
