@@ -11,7 +11,7 @@ public class EmailEstimationTest extends TestConfig {
     String amountOfInstances = "4";
 
     @Test
-    public void compareTotalEstimatedMonthlyCost() {
+    public void compareTotalEstimatedMonthlyCost() throws InterruptedException {
 
         EmailEstimationForm testCredentials = EmailEstimationFormCreator.setCredentials();
         String actualPrice = new GoogleCloudHomePage(webDriver)
