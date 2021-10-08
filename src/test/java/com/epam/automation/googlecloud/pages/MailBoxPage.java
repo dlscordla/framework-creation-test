@@ -55,7 +55,7 @@ public class MailBoxPage extends AbstractPage {
     }
 
     public MailBoxPage refreshMailBox() throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(10000);
         refreshButton.click();
         webDriver.switchTo().frame(webDriver.findElement(By.id("ifmail")));
         new WebDriverWait(webDriver, Duration.ofSeconds(30))
